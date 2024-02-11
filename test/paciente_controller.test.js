@@ -35,7 +35,7 @@ describe("Pruebas para perfilPaciente", () => {
 
         // Verifica que se haya llamado al método json con los datos correctos
         expect(res.json).toHaveBeenCalledWith(expect.objectContaining({
-            /* Datos del paciente sin campos sensibles */
+            /* Datos del paciente */
         }));
     });
 });
