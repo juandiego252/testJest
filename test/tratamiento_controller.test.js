@@ -1,4 +1,4 @@
-// Importa las funciones que deseas probar
+
 import { detalleTratamiento, registrarTratamiento, actualizarTratamiento, eliminarTratamiento } from "./tuArchivo.js";
 
 //prueba para la función de ver el detalle del tratamiento
