@@ -42,7 +42,7 @@ describe("Pruebas para registrarTratamiento", () => {
 describe("Pruebas para actualizarTratamiento", () => {
     it("Debería actualizar el tratamiento si el ID es válido y los campos están completos", async () => {
         // Simula una solicitud HTTP con un ID válido y campos completos
-        const req = { params: { id: "ID_VALIDO" }, body: { /* Datos actualizados del tratamiento */ } };
+        const req = { params: { id: "1obdjemsywt23nsu2ma12" }, body: { /* Datos actualizados del tratamiento */ } };
         const res = { status: jest.fn(), json: jest.fn() };
 
         // Llama a la función de actualizar tratamiento
@@ -58,7 +58,7 @@ describe("Pruebas para actualizarTratamiento", () => {
 describe("Pruebas para eliminarTratamiento", () => {
     it("Debería eliminar el tratamiento si el ID es válido", async () => {
         // Simula una solicitud HTTP con un ID válido
-        const req = { params: { id: "ID_VALIDO" }, body: { /* Otros datos necesarios */ } };
+        const req = { params: { id: "1obdjemsywt23nsu2ma12" }, body: { /* Otros datos necesarios */ } };
         const res = { status: jest.fn(), json: jest.fn() };
 
         // Llama a la función de eliminar tratamiento
