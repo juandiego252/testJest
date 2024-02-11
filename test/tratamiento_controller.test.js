@@ -5,7 +5,7 @@ import { detalleTratamiento, registrarTratamiento, actualizarTratamiento, elimin
 describe("Pruebas para detalleTratamiento", () => {
     it("Debería devolver los detalles del tratamiento si el ID es válido", async () => {
         // Simula una solicitud HTTP con un ID válido
-        const req = { params: { id: "ID_VALIDO" } };
+        const req = { params: { id: "1obdjemsywt23nsu2ma12" } };
         const res = { status: jest.fn(), json: jest.fn() };
 
         // Llama a la función de ver el detalle del tratamiento
