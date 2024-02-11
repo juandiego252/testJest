@@ -51,7 +51,7 @@ describe("Pruebas para listarPacientes", () => {
 
         // Verifica que se haya llamado al método json con la lista correcta de pacientes
         expect(res.json).toHaveBeenCalledWith(expect.arrayContaining([
-            /* Datos de pacientes activos */
+            // Datos de pacientes  
         ]));
     });
 });
