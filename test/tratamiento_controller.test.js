@@ -22,7 +22,7 @@ describe("Pruebas para detalleTratamiento", () => {
 describe("Pruebas para registrarTratamiento", () => {
     it("Debería crear un nuevo tratamiento si el ID del paciente es válido", async () => {
         // Simula una solicitud HTTP con un ID de paciente válido
-        const req = { body: { paciente: "ID_PACIENTE_VALIDO", /* Otros datos del tratamiento */ } };
+        const req = { body: { paciente: "1obdjemsywt23nsu2ma12", /* Otros datos del tratamiento */ } };
         const res = { status: jest.fn(), json: jest.fn() };
 
         // Llama a la función de registrar tratamiento
