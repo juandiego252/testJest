@@ -6,7 +6,7 @@ import app from '../src/index';
 describe("Pruebas para loginPaciente", () => {
     it("Debería devolver un token y datos del paciente si las credenciales son válidas", async () => {
         // Simula una solicitud HTTP con credenciales válidas
-        const req = { body: { email: "ejemplo@correo.com", password: "contraseña123" } };
+        const req = { body: { email: "juan252@correo.com", password: "123445" } };
         const res = { status: jest.fn(), json: jest.fn() };
         // Llama a la función de inicio de sesión
         await loginPaciente(req, res);
